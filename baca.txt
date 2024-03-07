@@ -1,0 +1,48 @@
+if (!empty($_GET['dashboard'])) {
+                    if ($_GET['dashboard'] == "admin") {
+                        include "admin.php";
+                    } elseif ($_GET['dashboard'] == "admin-add") {
+                        include "admin_add.php";
+                    } elseif ($_GET['dashboard'] == "admin-edit") {
+                        include "admin_edit.php";
+                    } elseif ($_GET['dashboard'] == "admin-detele") {
+                        include "admin_delete.php";
+                    } elseif ($_GET['dashboard'] == "guru") {
+                        include "guru.php";
+                    } elseif ($_GET['dashboard'] == "guru-add") {
+                        include "guru_add.php";
+                    } elseif ($_GET['dashboard'] == "guru-edit") {
+                        include "guru_edit.php";
+                    } elseif ($_GET['dashboard'] == "guru-delete") {
+                        include "guru_delete.php";
+                    } elseif ($_GET['dashboard'] == "kelas") {
+                        include "kelas.php";
+                    } elseif ($_GET['dashboard'] == "kelas-add") {
+                        include "kelas_add.php";
+                    } elseif ($_GET['dashboard'] == "kelas-edit") {
+                        include "kelas_edit.php";
+                    } elseif ($_GET['dashboard'] == "kelas-delete") {
+                        include "kelas_delete.php";
+                    } elseif ($_GET['dashboard'] == "mata_pelajaran") {
+                        include "mata_pelajaran.php";
+                    } elseif ($_GET['dashboard'] == "mata_pelajaran-add") {
+                        include "mata_pelajaran_add.php";
+                    } elseif ($_GET['dashboard'] == "mata_pelajaran-edit") {
+                        include "mata_pelajaran_edit.php";
+                    } elseif ($_GET['dashboard'] == "mata_pelajaran-delete") {
+                        include "mata_pelajaran_delete.php";
+                    } elseif ($_GET['dashboard'] == "nilai") {
+                        include "nilai.php";
+                    } elseif ($_GET['dashboard'] == "nilai-add") {
+                        include "nilai_add.php";
+                    } elseif ($_GET['dashboard'] == "nilai-edit") {
+                      include "nilai_edit.php";
+                    } elseif ($_GET['dashboard'] == "nilai-delete") {
+                        include "nilai_delete.php";
+                    } else {
+                        echo "hello";
+                    }
+                    } else { 
+                       echo "selamat datang";
+                }
+                ?>
